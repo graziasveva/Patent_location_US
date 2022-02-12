@@ -12,7 +12,7 @@ In my research work, I managed to assign to an American county almost 98% of all
 3- location dataset by Gaetan de Rassenfosse (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3425764)
 Then, when even using this sources there wasn't the necessary detail to geolocalize the patent at county level, I used two different strategies:
 1-in the first place, for those patents missing zipcodes, I recovered them using a public API (https://geo.fcc.gov/api/census/area) to get them using their latitude and longitude
-2- eventually, for those still lacking county information despite having a zip code, I created a crawler to scrape zip codes from unitedstateszipcodes.org and to get in that way the county of the remaining patents.
+2- eventually, for those still lacking county information despite having a zip code, I created a crawler to scrape zip codes from unitedstateszipcodes.org and to get in that way the county of the remaining patents (you can find the code for that in the uploaded notebook)
 
 The complete dataset of US assigned patents accounts for 4,067,011 obs, including patents granted between 1980 and 2020 and it is available at the following link: https://drive.google.com/drive/folders/1FsDDmwhfARg83SCSVcxeiHylW8h-Er73?usp=sharing
 In the same folder you can also find a dataset about geolocation (US, county level) of green patents (263'630 obs) 
